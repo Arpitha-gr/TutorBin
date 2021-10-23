@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/icon.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Tutor Bin</title>
+</head>
+
+<!-- when any key is pressed on the keyboard, function key is called -->
+<body onkeydown="key()">
+    <nav class="navbar">
+
+        <div class="logo">
+            <img src="img/logo.png" alt="Logo">
+        </div>
+
+        <div class="search">
+            <input class="input" type="search" placeholder="Type here.." id="textArea">
+            <!-- when button is clicked, function search is called -->
+            <button class="button" onclick="search()" id="button">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+    </nav>
+
+    <div class="contentArea">
+        <p id="paragraph">Since the commercialization of the Web, Web development has been a growing industry. The
+            growth of this industry is being driven by businesses wishing to use their Web site to advertise and sell
+            products and services to customers.
+
+            There are many open source tools for Web development such as BerkeleyDB, GlassFish, LAMP (Linux, Apache,
+            MySQL, PHP) stack and Perl/Plack. This has kept the cost of learning Web development to a minimum. Another
+            contributing factor to the growth of the industry has been the rise of easy-to-use WYSIWYG Web-development
+            software, such as Adobe Dreamweaver, BlueGriffon and Microsoft Visual Studio. Knowledge of HyperText Markup
+            Language (HTML) or of programming languages is still required to use such software, but the basics can be
+            learned and implemented quickly.
+
+            An ever-growing set of tools and technologies have helped developers build more dynamic and interactive Web
+            sites. Further, Web developers now help to deliver applications as Web services which were traditionally
+            only available as applications on a desk-based computer. This has allowed for many opportunities to
+            decentralize information and media distribution. Examples can be seen with the rise of cloud services such
+            as Adobe Creative Cloud, Dropbox and Google Drive. These Web services allow users to interact with
+            applications from many locations, instead of being tied to a specific workstation for their application
+            environment.
+
+            Examples of dramatic transformation in communication and commerce led by Web development include e-commerce.
+            Online auction sites such as eBay have changed the way consumers find and purchase goods and services.
+            Online retailers such as Amazon.com and Buy.com (among many others) have transformed the shopping and
+            bargain-hunting experience for many consumers. Another example of transformative communication led by Web
+            development is the blog. Web applications such as WordPress and Movable Type have created blog-environments
+            for individual Web sites. The increased usage of open-source content management systems and enterprise
+            content management systems has extended Web development's impact at online interaction and communication.
+
+            Web development has also impacted personal networking and marketing. Web sites are no longer simply tools
+            for work or for commerce, but serve more broadly for communication and social networking. Web sites such as
+            Facebook and Twitter provide users with a platform to communicate and organizations with a more personal and
+            interactive way to engage the public.</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
